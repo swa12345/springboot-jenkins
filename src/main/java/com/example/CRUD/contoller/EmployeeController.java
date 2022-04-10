@@ -62,11 +62,14 @@ public class EmployeeController {
 		logger.info("Resource Updated");
 		
 		Employee updateEmp=empServices.updateEmpById(emp);
+		logger.info(emp);
 		return new ResponseEntity<Employee>(updateEmp,HttpStatus.CREATED);
 	}
 	
 	@DeleteMapping("/del/{empId}")
 	public ResponseEntity<Void> delById(@PathVariable("empId") Long empId){
+		
+		
 		empServices.delEmpByid(empId);
 		return new ResponseEntity<Void>(HttpStatus.ACCEPTED);
 		
