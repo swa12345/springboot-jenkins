@@ -33,7 +33,7 @@ public class EmployeeController {
 	@PostMapping("/save")
 	public ResponseEntity<Employee> saveEmpl(@RequestBody Employee emp){
 		
-		logger.info("Resource Created");
+		logger.info("Resource Created1");
 		
 		Employee employeeSaved=empServices.saveEmployee(emp);
 		return new ResponseEntity<Employee>(employeeSaved, HttpStatus.CREATED);
