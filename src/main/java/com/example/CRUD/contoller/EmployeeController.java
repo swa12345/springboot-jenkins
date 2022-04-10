@@ -59,7 +59,7 @@ public class EmployeeController {
 	@PutMapping("/update")
 	public ResponseEntity<Employee> updateById(@RequestBody Employee emp){
 		
-		logger.info("Resource Updated");
+		logger.info("Resource has been updated");
 		
 		Employee updateEmp=empServices.updateEmpById(emp);
 		logger.info(emp);
