@@ -43,6 +43,8 @@ public class EmployeeController {
 	@GetMapping("/all")
 	public ResponseEntity<List<Employee>> getEmpl() {
 		
+		logger.info("Resource Information");
+		
 		List<Employee> listOfAllEmps=empServices.getAllEmployees();
 		return new ResponseEntity<List<Employee>>(listOfAllEmps,HttpStatus.OK);
 	}
