@@ -58,6 +58,9 @@ public class EmployeeController {
 	
 	@PutMapping("/update")
 	public ResponseEntity<Employee> updateById(@RequestBody Employee emp){
+		
+		logger.info("Resource Updated");
+		
 		Employee updateEmp=empServices.updateEmpById(emp);
 		return new ResponseEntity<Employee>(updateEmp,HttpStatus.CREATED);
 	}
