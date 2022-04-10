@@ -1,0 +1,31 @@
+2022-04-04 01:08:17.742  INFO 8782 --- [main] com.example.CRUD.CrudProjectApplication  : Starting CrudProjectApplication using Java 16.0.2 on Swapnils-MacBook-Air.local with PID 8782 (/Users/itsme/Documents/workspace-sts-3.9.12.RELEASE/CRUD_Project/target/classes started by itsme in /Users/itsme/Documents/workspace-sts-3.9.12.RELEASE/CRUD_Project)
+2022-04-04 01:08:17.750  INFO 8782 --- [main] com.example.CRUD.CrudProjectApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-04 01:08:18.385  INFO 8782 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-04 01:08:18.444  INFO 8782 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2022-04-04 01:08:18.968  INFO 8782 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2022-04-04 01:08:18.974  INFO 8782 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-04 01:08:18.974  INFO 8782 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-04 01:08:19.074  INFO 8782 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-04 01:08:19.075  INFO 8782 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1259 ms
+2022-04-04 01:08:19.239  INFO 8782 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-04 01:08:19.273  INFO 8782 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-04 01:08:19.353  INFO 8782 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 01:08:19.394  INFO 8782 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-04 01:08:19.854  INFO 8782 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-04 01:08:19.866  INFO 8782 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-04-04 01:08:20.234  INFO 8782 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 01:08:20.240  INFO 8782 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-04 01:08:20.457  WARN 8782 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-04 01:08:20.709  INFO 8782 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2022-04-04 01:08:20.722  INFO 8782 --- [main] com.example.CRUD.CrudProjectApplication  : Started CrudProjectApplication in 3.344 seconds (JVM running for 4.148)
+2022-04-04 01:09:01.640  INFO 8782 --- [http-nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-04 01:09:01.641  INFO 8782 --- [http-nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-04 01:09:01.649  INFO 8782 --- [http-nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-04-04 01:09:01.737  WARN 8782 --- [http-nio-8181-exec-1] c.e.CRUD.contoller.EmployeeController    : this is a warning
+2022-04-04 01:09:07.848  WARN 8782 --- [http-nio-8181-exec-3] c.e.CRUD.contoller.EmployeeController    : this is a warning
+2022-04-04 01:09:14.291  WARN 8782 --- [http-nio-8181-exec-4] c.e.CRUD.contoller.EmployeeController    : this is a warning
+2022-04-04 01:09:21.163  WARN 8782 --- [http-nio-8181-exec-5] c.e.CRUD.contoller.EmployeeController    : this is a warning
+2022-04-04 01:10:49.861  INFO 8782 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-04 01:10:49.918  INFO 8782 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-04 01:10:49.923  INFO 8782 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-04 01:10:49.938  INFO 8782 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
